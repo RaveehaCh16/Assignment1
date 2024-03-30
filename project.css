@@ -1,0 +1,32 @@
+body {
+    padding-top: 60px; /* Adjusted for fixed navbar height */
+    background-image: url(https://media.istockphoto.com/id/1027112894/photo/gray-wall-background.jpg?b=1&s=612x612&w=0&k=20&c=L2mtMSA_ls7dUTac0rZueyGP1B-fbdhyOAc6h0vg4nM=); /* URL of your image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/1027112894/photo/gray-wall-background.jpg?b=1&s=612x612&w=0&k=20&c=L2mtMSA_ls7dUTac0rZueyGP1B-fbdhyOAc6h0vg4nM=); /* URL of your image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+}
+header {
+    background-color: transparent; /* Make the header background transparent */
+    padding: 20px;
+    text-align: center;
+}
+
+#project-picture1 {
+    width: auto; /* Allow width to adjust automatically */
+    height: auto; /* Adjust the height as needed */
+}
+#project-picture2 {
+    width: 500px; /* Allow width to adjust automatically */
+    height: 260px; /* Adjust the height as needed */
+    margin-left: 80px;
+}

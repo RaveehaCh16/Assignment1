@@ -1,0 +1,42 @@
+/* Custom Styles */
+body {
+    padding-top: 60px; /* Adjusted for fixed navbar height */
+    background-image: url(https://media.istockphoto.com/id/1027112894/photo/gray-wall-background.jpg?b=1&s=612x612&w=0&k=20&c=L2mtMSA_ls7dUTac0rZueyGP1B-fbdhyOAc6h0vg4nM=); /* URL of your image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/1027112894/photo/gray-wall-background.jpg?b=1&s=612x612&w=0&k=20&c=L2mtMSA_ls7dUTac0rZueyGP1B-fbdhyOAc6h0vg4nM=); /* URL of your image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+.container {
+    max-width: 800px;
+}
+img#profile-picture {
+    max-width: 200px; /* Adjust the maximum width as needed */
+    float: right; /* Float the image to the right */
+    margin-left: 20px; /* Add some left margin for spacing */
+    border: 2px solid black;
+    border-radius: 50%;
+}
+h1.about-me {
+    text-align: center;
+    border-top: 2px solid black; /* Add a solid black border above */
+    border-bottom: 2px solid black; /* Add a solid black border below */
+    padding-top: 20px; /* Adjust padding for spacing */
+    padding-bottom: 20px; /* Adjust padding for spacing */
+}
+p {
+    font-size: 14px; /* Adjust the font size as needed */
+}
+#p2 {
+    margin-left: 20px; /* Adjust the value to shift the text to the right */
+}
